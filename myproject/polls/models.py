@@ -11,3 +11,4 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
 
 #python manage.py makemigrations polls
+#python manage.py migrate
